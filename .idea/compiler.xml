@@ -9,8 +9,5 @@
         <module name="Djkstra" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Backtracking" target="7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
