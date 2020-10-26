@@ -2,6 +2,7 @@ public class CoinChange {
 
     public static void main(String[] args) {
         int[] coins = {1,2,3};
+
         int total = 5;
         System.out.println(recursiveCoinChange(total,coins, 0));
         dynamicCoinChange(total,coins);
@@ -24,6 +25,10 @@ public class CoinChange {
     }
 
     //dynamic programming soln
+    //No of Columns is the total amount +1(for 0 as well)
+    //No of rows is num of coins+1 including 0
+    //Each cell represent the possible solutions
+
     public static void dynamicCoinChange(int total, int[] coins){
         int[][] dp = new int[coins.length+1][total+1];
 
