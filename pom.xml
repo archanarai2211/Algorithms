@@ -12,6 +12,7 @@
         <module>Djkstra</module>
         <module>MultiThreading</module>
         <module>DynamicProgramming</module>
+        <module>Amazon</module>
     </modules>
 
 
