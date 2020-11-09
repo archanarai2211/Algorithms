@@ -1,5 +1,5 @@
 public class FreshPromotion {
-
+//https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
     public static void main(String[] args) {
         String[][] codeList1 = { { "apple", "apple" }, { "banana", "anything", "banana" } };
         String[] shoppingCart1 = {"orange", "apple", "apple", "banana", "orange", "banana"};
